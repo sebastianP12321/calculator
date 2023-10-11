@@ -1,0 +1,98 @@
+.key {
+  background-color: rgb(114, 109, 81);
+  border: 2px solid white;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+.key > p {
+  text-align: center;
+  margin: 15px auto 20px;
+  user-select: none;
+}
+.key:hover {
+  background-color: rgb(148, 141, 104);
+}
+.key:active {
+  background-color: rgb(65, 62, 47);
+}
+.keyInvert {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+.key0 {
+  grid-row: 6/7;
+  grid-column: 2/3;
+}
+.keyDot {
+  grid-row: 6/7;
+  grid-column: 3/4;
+}
+.keyEqual {
+  grid-row: 6/7;
+  grid-column: 4/5;
+}
+.key1 {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+.key2 {
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+.key3 {
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+.keyPlus {
+  grid-row: 5/6;
+  grid-column: 4/5;
+}
+.key4 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.key5 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+.key6 {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+.keyMinus {
+  grid-row: 4/5;
+  grid-column: 4/5;
+}
+.key7 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.key8 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.key9 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.keyTimes {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+.keyPower {
+  grid-row: 2/3;
+  grid-column: 1/4;
+}
+.keyDivide {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+.keyClear {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+.keyBackspace {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
