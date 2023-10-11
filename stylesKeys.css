@@ -1,22 +1,8 @@
 .key {
+  background-color: rgb(114, 109, 81);
   border: 2px solid white;
   color: transparent;
   text-shadow: 0 0 0 black;
-  animation: changeColor 2s linear infinite;
-}
-@keyframes changeColor {
-  0% {
-    background-color: rgb(161, 157, 130);
-  }
-  33% {
-    background-color: rgb(114, 109, 80);
-  }
-  66% {
-    background-color: rgb(87, 82, 61);
-  }
-  100% {
-    background-color: rgb(161, 157, 130);
-  }
 }
 
 .key > p {
